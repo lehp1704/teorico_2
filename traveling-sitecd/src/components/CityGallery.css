@@ -1,0 +1,26 @@
+.city-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+  
+  .city {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .city img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .city:hover img {
+    transform: scale(1.1);
+  }
+  
+  .city p {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
